@@ -1,0 +1,91 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+</head>
+<body>
+ 
+
+<!-- navbar -->
+<nav class="bg-lime-700 text-white">
+  <div class="container mx-auto px-1 py-2 flex items-center justify-between flex-row">
+    <div class="flex flex-nowrap mb-auto">
+      <div class="flex-wrap">
+    	<a href="#"><img src="SRC/Darbaosmawa.png" class="w-14 h-14"></a>
+      </div>
+      <div class="text-white text-lg font-medium ml-5 mt-3">
+     	<a href="#">DARBAOSMAWA</a>
+      </div>
+    </div>
+    <div class="flex items-center">
+     	<a href="#" class="text-white text-lg mr-6">Home</a>
+     	<a href="#" class="text-white text-lg mr-6">Profile</a>
+     	<a href="#" class="text-white text-lg mr-6">Ekskul</a>
+      <a href="#" class="text-white text-lg mr-6">Recruitment</a>
+     	<a href="#" class="text-white text-lg mr-6">History</a>
+    </div>
+  </div>
+</nav>
+	
+<!-- hero section -->              
+<section class="bg-local py-60 bg-cover" style="background-image: url(SRC/foto\ darba\ -\ Diedit.png);">
+  <div class="bg-gray-900 z-10"></div>
+  <div class="container mx-auto px-6 py-20 items-center">
+    <div class="text-center">
+      <h1 class="text-2xl md:text-4xl lg:text-7xl mb-4 text-white">DARBAOSMAWA</h1>
+      <p class="text-xl leading-loose mb-8 text-white">OSIS SMAN2 Padalarang Official Website</p>
+      <a href="#" class="bg-white text-gray-800 py-2 px-4 rounded-full hover:bg-gray-200">Masa Bakti 2022/2023</a>
+    </div>
+  </div>
+</section>
+
+<!-- component -->
+<div class="p-4 m-8 w-80 bg-white shadow-md rounded-xl">
+  <picture class="rounded-lg block overflow-hidden">
+    <img
+      class="hover:scale-125"
+      src="https://placeimg.com/360/240/tech"
+    />
+  </picture>
+
+  <h1 class="mt-4 mb-2 text-xl font-bold">BURHANUDIN YUSUF ATHALLAH</h1>
+  <p class="text-sm text-gray-600">
+    Ketua Tim Tailwind
+  </p>
+</div>
+
+	<!-- footer -->
+	<footer class="bg-gradient-to-r from-gray-900 via-pink-700 to-gray-900 text-white">
+  <div class="container mx-auto px-6 py-4">
+    <div class="flex items-center">
+      <p>Copyright © 2023 My Website</p>
+      <div class="ml-auto">
+        <a href="#" class="text-white text-sm">Terms</a>
+        <a href="#" class="text-white text-sm">Privacy</a>
+      </div>
+    </div>
+  </div>
+</footer>
+
+<!-- javascript -->
+
+<nav class="top-0 bg-white shadow">
+  <!-- navbar content goes here -->
+</nav>
+
+<script>
+  $(window).scroll(function () {
+    var scroll = $(window).scrollTop();
+    if (scroll >= 50) {
+      $("nav").addClass("fixed bg-white shadow");
+    } else {
+      $("nav").removeClass("fixed bg-white shadow");
+    }
+  });
+</script>
+
+
+</body>
+</html>
